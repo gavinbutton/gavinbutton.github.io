@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/styles/_variables.scss';
+@import './assets/styles/mixins';
 
+@import "~bootswatch/dist/minty/_variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/minty/_bootswatch";
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
