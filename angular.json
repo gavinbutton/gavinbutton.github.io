@@ -26,8 +26,7 @@
               "src/favicon.ico",
               "src/assets",
               "src/CNAME",
-              "src/.nojekyll",
-              "src/404.html"
+              "src/.nojekyll"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
