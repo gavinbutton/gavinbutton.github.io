@@ -3,7 +3,7 @@
 const fs = require("fs");
 const replace = require('replace-in-file');
 
-var buildVersion = new Date();
+var buildVersion = new Date().toISOString();
 const options = {
   files: 'docs/index.html',
   from: /{BUILD_VERSION}/g,
